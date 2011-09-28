@@ -1,0 +1,16 @@
+* What is it for?
+  The tool records rtmp radios (each recording in different thread) and saves them in ogg format in output directory.
+* Dependencies
+  - python 2
+  - gevent:
+    pip install gevent
+  - rtmpdump
+  - ffmpeg
+* How to use
+  mv list.sample.yml list.yml
+  edit list.yml
+  mv config.sample.yml config.yml
+  edit config.yml
+  run "python recorder.py"
+* Licence
+  Podcast processor is released under MIT licence.
